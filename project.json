@@ -38,7 +38,8 @@
       "version": "1.0.0-preview2-update1",
       "type": "build"
     },
-    "React.AspNet": "3.0.0"
+    "React.AspNet": "3.0.0",
+    "MsieJavaScriptEngine": "2.1.0"
   },
   "tools": {
     "Microsoft.AspNetCore.Razor.Tools": {

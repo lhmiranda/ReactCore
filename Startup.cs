@@ -49,7 +49,9 @@ namespace ReactCore
 
             app.UseReact(config =>
             {
-
+                config
+                    .AddScript("~/js/remarkable.min.js")
+                    .AddScript("~/js/tutorial.jsx");
             });
 
             app.UseStaticFiles();
